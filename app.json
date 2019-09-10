@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Basic React Native App",
+    "slug": "reactNativeApp",
+    "privacy": "unlisted",
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "assetBundlePatterns": [ "**/*" ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "facebookScheme": "<FACEBOOK_SCHEME>",
+    "facebookAppId": "<FACEBOOK_APP_ID>",
+    "facebookDisplayName": "<FACEBOOK_DISPLAY_NAME>",
+    "ios": {
+      "bundleIdentifier": "com.example.exampleapp",
+      "supportsTablet": true,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "<GOOGLE_RESERVED_CLIENT_ID>"
+        }
+      }
+    },
+    "android": {
+      "package": "com.example.exampleApp",
+      "googleServicesFile": "<PATH_TO_FILE(eg. './google-services.json')>",
+      "permissions": [
+      ]
+    }
+  }
+}
